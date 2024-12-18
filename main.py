@@ -2,9 +2,9 @@ import sqlite3
 import pandas as pd
 
 # Установить соединение с базой данных
-conn = sqlite3.connect(r'C:\Users\Alkor\gd\data_quote_db\RTS_futures_minute.db')  # Укажите имя вашей базы данных
+conn = sqlite3.connect(r'C:\Users\Alkor\gd\data_quote_db\RTS_futures_minute.db')
 
-# Написать SQL-запрос для извлечения данных
+# SQL-запрос для извлечения данных
 query = "SELECT * FROM Minute"  # Замените table_name на имя вашей таблицы
 
 # Загрузить данные в DataFrame
