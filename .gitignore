@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 df_m5_T3MA_01.csv
 df_m5_TVI_CCI_T3_GHL.csv
+dates_xls/
+dates.txt
