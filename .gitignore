@@ -164,4 +164,4 @@ cython_debug/
 *.csv
 *.xlsx
 dates_xls/
-*.txt
+dates.txt
